@@ -5,12 +5,29 @@
 Fitness Template
 http://www.templatemo.com/tm-487-fitness
 -->
-<title>Fitness - Responsive HTML Template</title>
+    <!-- Owl Carousel CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
+    <!-- Owl Carousel JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<title>GRACE AGENCY</title>
 <meta name="description" content="">
 <meta name="author" content="">
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=Edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<style>
+    .trainer-thumb img {
+        width: 100%;
+        height: auto;
+        max-height: 500px; /* Максимальная высота изображений */
+    }
+</style>
 
 
 <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -44,254 +61,285 @@ http://www.templatemo.com/tm-487-fitness
     NAVIGATION SECTION   
 ============================== -->
 
+
 <div class="navbar navbar-default navbar-fixed-top sticky-navigation" role="navigation">
-	<div class="container">
-		<div class="navbar-header">
-			<button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-				<span class="icon icon-bar"></span>
-				<span class="icon icon-bar"></span>
-				<span class="icon icon-bar"></span>
-			</button>
-			<a class="navbar-brand" href="#">
-				<img src="images/Лого-removebg.jpg" alt="Лого">
-			</a>
-		</div>
-		<div class="collapse navbar-collapse">
-			<ul class="nav navbar-nav navbar-right main-navigation">
-				<li><a href="#home" class="smoothScroll">ГЛАВНАЯ</a></li>
-				<li><a href="#overview" class="smoothScroll">О НАС </a></li>
-				<li><a href="#trainer" class="smoothScroll">ПОРТФОЛИО</a></li>
-				<li><a href="#testimonial" class="smoothScroll">ОТЗЫВЫ</a></li>
-			</ul>
-		</div>
-	</div>
+    <div class="container">
+        <div class="navbar-header">
+            <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon icon-bar"></span>
+                <span class="icon icon-bar"></span>
+                <span class="icon icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">
+                <img class="navbar-brand-img" src="images/Лого-removebg.jpg" alt="Лого">
+            </a>
+        </div>
+        <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav navbar-right main-navigation">
+                <li><a href="#home" class="smoothScroll">ГОЛОВНА</a></li>
+                <li><a href="#overview" class="smoothScroll">ПРО НАС</a></li>
+                <li><a href="#trainer" class="smoothScroll">ПОРТФОЛІО</a></li>
+                <li><a href="#testimonial" class="smoothScroll">ВІДГУКИ</a></li>
+                <li><a href="#testimonial" class="smoothScroll">UA/RU/EN</a></li>
+            </ul>
+        </div>
+    </div>
 </div>
 
 
-<!-- =========================
-    HOME SECTION   
-============================== -->
 <section id="home" class="parallax-section">
-	<div class="container">
-		<div class="row">
-
-			<div class="col-md-offset-1 col-md-10 col-sm-12">
-				<h3 class="wow bounceIn" data-wow-delay="0.9s">Hello! you are welcome to</h3>
-				<h1 class="wow fadeInUp" data-wow-delay="1.6s">ВАШ ШАНС СТАТЬ <br>ОСОБЕННЫМИ</br></h1>
-				<a href="#overview" class="wow fadeInUp smoothScroll btn btn-default" data-wow-delay="2s">УЗНАТЬ БОЛЬШЕ</a>
-			</div>
-
-		</div>
-	</div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-offset-1 col-md-10 col-sm-12">
+                <h1 class="wow fadeInUp" data-wow-delay="1.6s">ВАШ ШАНС СТАТИ <br>ОСОБЛИВИМИ</br></h1>
+                <a href="#overview" class="wow fadeInUp smoothScroll btn btn-default" data-wow-delay="2s">ДІЗНАТИСЯ БІЛЬШЕ</a>
+            </div>
+        </div>
+    </div>
 </section>
 
 
-<!-- =========================
-    OVERVIEW SECTION   
-============================== -->
+
 <section id="overview" class="parallax-section">
-	<div class="container">
-		<div class="row">
+    <div class="container">
+        <div class="row">
 
-			<div class="col-md-6 col-sm-12">
-				<img src="images/overview-img.jpg" class="img-responsive" alt="Overview">
-				<blockquote class="wow fadeInUp" data-wow-delay="1.9s">Мы в агентстве "Grase Models" гордимся нашей принципиальной позицией: всегда выполнять взятые обязательства в полном объеме и нести ответственность за результаты нашей работы. Это наше кредо и фундамент нашей деятельности. Мы стремимся к высочайшему качеству в каждом аспекте нашей работы, уделяя внимание даже самым мелким деталям. Наша цель — не просто удовлетворить ожидания клиентов и партнеров, но и превзойти их, создавая долгосрочные и взаимовыгодные отношения.</blockquote>
-			</div>
+            <div class="col-md-6 col-sm-12">
+                <img src="images/overview-img.jpg" class="img-responsive" alt="Огляд">
+            </div>
 
-			<div class="col-md-1"></div>
+            <div class="col-md-1"></div>
 
-			<div class="wow fadeInUp col-md-4 col-sm-12" data-wow-delay="1s">
-				<div class="overview-detail">
-					<h1>О НАС</h1>
-					<p>Более пяти лет агентство "Grase Models" занимается поиском и продвижением моделей. Мы являемся первым официальным скаутским агентством в Украине, стремясь к непрерывному развитию и совершенствованию. Наша фирменная черта — информационная открытость, высокий профессионализм и индивидуальный подход к каждому. За годы работы нашей команды мы приобрели уникальные знания и навыки, позволяющие нам успешно достигать новых высот.</p>
-					<a href="#trainer" class="btn btn-default smoothScroll">НАШЕ ПОРТФОЛИО</a>
-				</div>
-			</div>
+            <div class="wow fadeInUp col-md-4 col-sm-12" data-wow-delay="1s">
+                <div class="overview-detail">
+                    <h1>ПРО НАС</h1>
+                    <p>Більше ніж чотири роки агентство "Grase Models" займається пошуком та просуванням моделей. Наші основні цінності - це прозорість інформації, високий професіоналізм і індивідуальний підхід до кожного клієнта. Протягом цього часу наша команда накопичила унікальний досвід і знання, що дозволяють нам успішно досягати нових висот.</p>
+					<a href="#trainer" class="btn btn-default smoothScroll">ЗАПОВНИТИ АНЕКЕТУ</a>
+                </div>
+            </div>
 
-			<div class="col-md-1"></div>
+            <div class="col-md-1"></div>
 
-		</div>
-	</div>
+        </div>
+    </div>
 </section>
 
 <section id="overview" class="parallax-section">
-	<div class="container">
-		<div class="row">
+    <div class="container">
+        <div class="row">
 
-			<div class="col-md-1"></div>
+            <div class="col-md-1"></div>
 
-			<div class="wow fadeInUp col-md-4 col-sm-12" data-wow-delay="1s">
-				<div class="overview-detail">
-					<h2>ДЕЯТЕЛЬНОСТЬ</h2>
-					<p>Наше агентство специализируется на поиске моделей и предоставлении промежуточных услуг для сотен дейтинговых компаний. Мы сотрудничаем с партнерами, которые регистрируют моделей на международных платных дейтинговых сайтах и берут на себя общение с иностранными пользователями. Это позволяет девушкам получать пассивный доход с анкет, используя обычные фотографии. Наша репутация, заслуженная годами работы, подтверждается десятками сотрудников, сотнями партнёров и тысячами моделей по всему миру.</p>
-					<!-- <a href="#trainer" class="btn btn-default smoothScroll">Let us begin</a> -->
-				</div>
-			</div>
+            <div class="wow fadeInUp col-md-4 col-sm-12" data-wow-delay="1s">
+                <div class="overview-detail">
+                    <h2>НАША ДІЯЛЬНІСТЬ</h2>
+                    <p>Наше агентство "Grace Agency" спеціалізується на пошуку моделей і наданні посередницьких послуг для сотень дейтингових компаній. Ми співпрацюємо з партнерами, які реєструють моделі на міжнародних платних дейтингових сайтах та забезпечують комунікацію з іноземними користувачами. Це дозволяє дівчатам отримувати пасивний дохід з профілів, використовуючи звичайні фотографії. Наша репутація, заслужена роками роботи, підтверджується десятками співробітників, сотнями партнерів і тисячами моделей по всьому світу.
+                    </p>
+					<a href="#trainer" class="btn btn-default smoothScroll">НАШЕ ПОРТФОЛІО</a>
 
-			<div class="col-md-6 col-sm-12">
-				<img src="images/girl.png" class="img-responsive" alt="Overview">
-				<blockquote class="wow fadeInUp" data-wow-delay="1.9s">Каждая модель и скаут в "Grase Models" имеют для нас особое значение. Мы гарантируем внимательное отношение и предлагаем лучшие условия, способствующие эффективной работе и долгосрочному сотрудничеству. В любое время вы можете обратиться к нам онлайн и получить исчерпывающую консультацию по всем интересующим вопросам.</blockquote>
-			</div>
+                </div>
+            </div>
 
-			<div class="col-md-1"></div>
+            <div class="col-md-6 col-sm-12">
+                <img  src="images/girl.png" class="img-responsive" alt="Огляд">
+                <blockquote class="wow fadeInUp" data-wow-delay="1.9s">Кожна модель і скот в "Grace Agency" мають для нас особливе значення. Ми гарантуємо уважне ставлення і пропонуємо кращі умови, що сприяють ефективній роботі і довгостроковому співробітництву. У будь-який час ви можете звернутися до нас онлайн і отримати вичерпну консультацію з усіх питань, що вас цікавлять.</blockquote>
+            </div>
 
-		</div>
-	</div>
+            <div class="col-md-1"></div>
+
+        </div>
+    </div>
 </section>
 
 <section id="trainer" class="parallax-section">
-	<div class="container">
-		<div class="row">
+    <div class="container">
+        <div class="row">
 
-			<div class="wow fadeInUp col-md-12 col-sm-12" data-wow-delay="1.3s">
-				<h1>ПОРТФОЛИО</h1>
-			</div>
+            <div class="wow fadeInUp col-md-12 col-sm-12" data-wow-delay="1.3s">
+                <h1>ПОРТФОЛІО</h1>
+            </div>
 
-			<div class="wow fadeInUp col-md-4 col-sm-6" data-wow-delay="1.9s">
-				<div class="trainer-thumb">
-					<img src="images/trainer-img1.jpg" class="img-responsive" alt="Trainer">
-						<div class="trainer-overlay">
-							<div class="trainer-des">
-								<h2>Jenny</h2>
-							</div>
-						</div>
-				</div>
-				<!-- <p>Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet, wisi risus purus augue vulputate.</p> -->
-			</div>
+            <div class="owl-carousel owl-theme">
+                <div class="item wow fadeInUp" data-wow-delay="1.9s">
+                    <div class="trainer-thumb">
+                        <img src="images/trainer-img1.jpg" class="img-responsive" alt="Trainer">
+                        <div class="trainer-overlay">
+                            <div class="trainer-des">
+                                <!-- <h2>Jenny</h2> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-			<div class="wow fadeInUp col-md-4 col-sm-6" data-wow-delay="2s">
-				<div class="trainer-thumb">
-					<img src="images/trainer-img2.jpg" class="img-responsive" alt="Trainer">
-						<div class="trainer-overlay">
-							<div class="trainer-des">
-								<h2>Marry</h2>
-							</div>
-						</div>
-				</div>
-			</div>
+                <div class="item wow fadeInUp" data-wow-delay="2s">
+                    <div class="trainer-thumb">
+                        <img src="images/trainer-img2.jpg" class="img-responsive" alt="Trainer">
+                        <div class="trainer-overlay">
+                            <div class="trainer-des">
+                                <!-- <h2>Marry</h2> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-			<div class="wow fadeInUp col-md-4 col-sm-6" data-wow-delay="2.3s">
-				<div class="trainer-thumb">
-					<img src="images/trainer-img3.jpg" class="img-responsive" alt="Trainer">
-						<div class="trainer-overlay">
-							<div class="trainer-des">
-								<h2>Olivia</h2>
-							</div>
-						</div>
-				</div>
-				
-		</div>
-	</div>
+                <div class="item wow fadeInUp" data-wow-delay="2s">
+                    <div class="trainer-thumb">
+                        <img src="images/1.PNG" class="img-responsive" alt="Trainer">
+                        <div class="trainer-overlay">
+                            <div class="trainer-des">
+                                <!-- <h2>Marry</h2> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item wow fadeInUp" data-wow-delay="2s">
+                    <div class="trainer-thumb">
+                        <img src="images/2.png" class="img-responsive" alt="Trainer">
+                        <div class="trainer-overlay">
+                            <div class="trainer-des">
+                                <!-- <h2>Marry</h2> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item wow fadeInUp" data-wow-delay="2s">
+                    <div class="trainer-thumb">
+                        <img src="images/3.png" class="img-responsive" alt="Trainer">
+                        <div class="trainer-overlay">
+                            <div class="trainer-des">
+                                <!-- <h2>Marry</h2> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item wow fadeInUp" data-wow-delay="2.3s">
+                    <div class="trainer-thumb">
+                        <img src="images/4.png" class="img-responsive" alt="Trainer">
+                        <div class="trainer-overlay">
+                            <div class="trainer-des">
+                                <!-- <h2>Olivia</h2> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                
+        </div>
+    </div>
 </section>
+
+
+
 
 <section id="overview" class="parallax-section">
-	<div class="container">
-		<div class="row">
+    <div class="container">
+        <div class="row">
 
-			<div class="col-md-6 col-sm-12">
-				<img src="images/girl2.png" class="img-responsive" alt="Overview">
-				<blockquote class="wow fadeInUp" data-wow-delay="1.9s">Grace Agency ищет коммуникабельных людей для работы в качестве скаутов. Ваша задача – находить потенциальных моделей и предоставлять им информацию о возможностях сотрудничества с нами. У нас гибкий график работы, который можно совмещать с другими занятиями, и ежедневные выплаты за выполненные задачи. Мы ценим наших сотрудников и рассматриваем кандидатов из всех регионов Украины.</blockquote>
-			</div>
+            <div class="col-md-6 col-sm-12">
+                <img src="images/girl2.png" class="img-responsive" alt="Огляд">
+                <blockquote class="wow fadeInUp" data-wow-delay="1.9s">Агентство Grace Agency шукає комунікабельних людей на роль скаутів. Ваше завдання - знаходити потенційних моделей і надавати їм інформацію про можливості співпраці з нами. У нас гнучкий графік роботи, який можна поєднувати з іншими заняттями, і щоденні виплати за виконані завдання. Ми цінуємо наших співробітників і розглядаємо кандидатів з усіх регіонів України.</blockquote>
+            </div>
 
-			<div class="col-md-1"></div>
+            <div class="col-md-1"></div>
 
-			<div class="wow fadeInUp col-md-4 col-sm-12" data-wow-delay="1s">
-				<div class="overview-detail">
-					<h2>ДЛЯ СКАУТОВ И МОДЕЛЕЙ</h2>
-					<p>Наше агентство, "Grace Agency", предлагает сотрудничество девушкам, увлеченным фотографией. Мы предлагаем моделям возможность пассивного дохода и качественные фотосессии от наших профессиональных фотографов. Независимо от ваших целей – будь то заработок или поиск серьезных отношений – мы можем помочь вам с регистрацией на дейтинговых сайтах, предоставив качественные фотографии для вашего профиля. Посмотрите примеры наших работ выше.</p>
-					<a href="#trainer" class="btn btn-default smoothScroll">НАШЕ ПОРТФОЛИО</a>
-				</div>
-			</div>
+            <div class="wow fadeInUp col-md-4 col-sm-12" data-wow-delay="1s">
+                <div class="overview-detail">
+                    <h2>ДЛЯ СКАУТІВ І МОДЕЛЕЙ</h2>
+                    <p>Наше агентство, "Grace Agency", пропонує співпрацю дівчатам, які цікавляться фотографією. Ми надаємо моделям можливість пасивного доходу та якісні фотосесії від наших професіональних фотографів. Незалежно від ваших цілей - чи то заробіток, чи пошук серйозних відносин - ми можемо допомогти вам з реєстрацією на дейтингових сайтах, надавши якісні фотографії для вашого профілю. Перегляньте приклади наших робіт вище.</p>
+                    <a href="#trainer" class="btn btn-default smoothScroll">ЗАПОВНИТИ АНЕКЕТУ</a>
+                </div>
+            </div>
 
-			<div class="col-md-1"></div>
+            <div class="col-md-1"></div>
 
-		</div>
-	</div>
+        </div>
+    </div>
 </section>
+
 
 
 
 <!-- =========================
     TESTIMONIAL SECTION   
 ============================== -->
+
 <section id="testimonial" class="parallax-section">
 	<div class="container">
 		<div class="row">
 
-			<!-- Testimonial Owl Carousel section
-			================================================== -->
-			<div id="owl-testimonial" class="owl-carousel">
+		<!-- Testimonial Owl Carousel section
+		================================================== -->
+		<div id="owl-testimonial" class="owl-carousel">
 
-				<div class="item col-md-offset-2 col-md-8 col-sm-offset-1 col-sm-10 wow fadeInUp" data-wow-delay="0.6s">
-					<i class="fa fa-quote-left"></i>
-					<h3>Изначально были сомнения в честности всего процесса, но мои опасения рассеялись после первой выплаты. Рада, что решила попробовать! Суммы приятные, хватает, чтобы порадовать себя. Очень рекомендую всем, кто колеблется!</h3>
-					<h4>Анастасия</h4>
-				</div>
+			<div class="item col-md-offset-2 col-md-8 col-sm-offset-1 col-sm-10 wow fadeInUp" data-wow-delay="0.6s">
+				<i class="fa fa-quote-left"></i>
+				<h3>Спочатку були сумніви щодо чесності всього процесу, але мої побоювання розвіялися після першої виплати. Рада, що вирішила спробувати! Суми приємні, вистачає, щоб порадувати себе. Дуже рекомендую всім, хто вагається!</h3>
+				<h4>Анастасія</h4>
+			</div>
 
-				<div class="item col-md-offset-2 col-md-8 col-sm-offset-1 col-sm-10 wow fadeInUp" data-wow-delay="0.6s">
-					<i class="fa fa-quote-left"></i>
-					<h3>Лучшее агентство в этой сфере, с которым мне довелось сотрудничать! Обычные скауты часто исчезали на дни, связывались лишь в случае необходимости. В Grase Models менеджер всегда на связи, что для меня является важнейшим моментом.</h3>
-					<h4>Татьяна</h4>
-				</div>
+			<div class="item col-md-offset-2 col-md-8 col-sm-offset-1 col-sm-10 wow fadeInUp" data-wow-delay="0.6s">
+				<i class="fa fa-quote-left"></i>
+				<h3>Найкраще агентство в цій сфері, з яким мені довелося співпрацювати! Звичайні скаути часто зникали на дні, зв'язувалися лише в разі необхідності. У Grace Agency менеджер завжди на зв'язку, що для мене є найважливішим моментом.</h3>
+				<h4>Тетяна</h4>
+			</div>
 
-				<div class="item col-md-offset-2 col-md-8 col-sm-offset-1 col-sm-10 wow fadeInUp" data-wow-delay="0.6s">
-					<i class="fa fa-quote-left"></i>
-					<h3>Четыре года назад обратилась в агентство, чтобы помочь моей маме зарегистрироваться, так как она очень хотела выйти замуж за иностранца. Уже восемь месяцев мама находится в Канаде, и мы более чем довольны результатом!</h3>
-					<h4>Мария</h4>
-				</div>
+			<div class="item col-md-offset-2 col-md-8 col-sm-offset-1 col-sm-10 wow fadeInUp" data-wow-delay="0.6s">
+				<i class="fa fa-quote-left"></i>
+				<h3>Чотири роки тому звернулася в агентство, щоб допомогти моїй мамі зареєструватися, оскільки вона дуже хотіла вийти заміж за іноземця. Уже вісім місяців мама знаходиться в Канаді, і ми більш ніж задоволені результатом!</h3>
+				<h4>Марія</h4>
+			</div>
 
-				<div class="item col-md-offset-2 col-md-8 col-sm-offset-1 col-sm-10 wow fadeInUp" data-wow-delay="0.6s">
-					<i class="fa fa-quote-left"></i>
-					<h3>Благодаря 'Global Opportunities' я нашел идеальную работу за границей. Спасибо за профессионализм!</h3>
-					<h4>Анна</h4>
-				</div>
+			<div class="item col-md-offset-2 col-md-8 col-sm-offset-1 col-sm-10 wow fadeInUp" data-wow-delay="0.6s">
+				<i class="fa fa-quote-left"></i>
+				<h3>Завдяки Grace Agency я знайшла ідеальну роботу за кордоном. Дякую за професіоналізм!</h3>
+				<h4>Анна</h4>
+			</div>
 
-				<div class="item col-md-offset-2 col-md-8 col-sm-offset-1 col-sm-10 wow fadeInUp" data-wow-delay="0.6s">
-					<i class="fa fa-quote-left"></i>
-					<h3>Превосходный сервис и отличная поддержка от 'Global Opportunities'. Очень рекомендую!</h3>
-					<h4>Екатерина</h4>
-				</div>
+			<div class="item col-md-offset-2 col-md-8 col-sm-offset-1 col-sm-10 wow fadeInUp" data-wow-delay="0.6s">
+				<i class="fa fa-quote-left"></i>
+				<h3>Чудовий сервіс та відмінна підтримка від Grace Agency. Дуже рекомендую!</h3>
+				<h4>Катерина</h4>
+			</div>
 
-				<div class="item col-md-offset-2 col-md-8 col-sm-offset-1 col-sm-10 wow fadeInUp" data-wow-delay="0.6s">
-					<i class="fa fa-quote-left"></i>
-					<h3>Очень доволен сотрудничеством с 'Global Opportunities'. У них отличные услуги и заботливый персонал</h3>
-					<h4>Ольга</h4>
-				</div>
-				
+			<div class="item col-md-offset-2 col-md-8 col-sm-offset-1 col-sm-10 wow fadeInUp" data-wow-delay="0.6s">
+				<i class="fa fa-quote-left"></i>
+				<h3>Дуже задоволений співпрацею з Grace Agency. У них відмінні послуги та турботливий персонал</h3>
+				<h4>Ольга</h4>
 			</div>
 
 		</div>
+
 	</div>
+</div>
 </section>
 
 
-<!-- =========================
-    FOOTER SECTION   
-============================== -->
 
 <footer>
 	<div class="container">
 		<div class="row">
 			<div class="wow fadeInUp col-md-4 col-sm-4" data-wow-delay="0.6s">
-				<h2>About Grase Models</h2>
-				<p style="color: aliceblue;">Более пяти лет агентство "Grase Models" занимается поиском и продвижением моделей. Мы являемся первым официальным скаутским агентством в Украине, наша работа направлена на постоянное развитие и улучшение.</p>
+				<h2>Про агентство Grase Agency</h2>
+                <!-- <img class="logo" src="images/Лого-removebg.jpg" alt="Лого"> -->
+                <p style="color: aliceblue;">Більше ніж чотири роки агентство "Grase Agency" спеціалізується на пошуку та просуванні моделей. Наші основні цінності - це прозорість інформації, високий професіоналізм і індивідуальний підхід до кожного клієнта. Протягом цього часу наша команда накопичила унікальний досвід і знання, що дозволяють нам успішно досягати нових висот.
+                </p>
 			</div>
 	
 			<div class="wow fadeInUp col-md-5 col-sm-4"  data-wow-delay="0.9s">
-				<h2>Contact Us</h2>
-				<p style="color: aliceblue;">Email: info@grasemodels.com</p>
-				<p style="color: aliceblue;">Instagram: @grasemodels</p>
-				<p style="color: aliceblue;">Telegram: t.me/grasemodels</p>
+				<h2>Зв'яжіться з нами</h2>
+                <p style="color: aliceblue;">Електронна пошта: delino3007@gmail.com</p>
+                <p style="color: aliceblue;">Telegram: t.me//Inkiv01</p>
 			</div>
 	
 			<div class="wow fadeInUp col-md-3 col-sm-4" data-wow-delay="1s">
-				<h2>Follow us</h2>
-				<ul class="social-icon">
-					<li><a href="#" class="fa fa-facebook"></a></li>
-					<li><a href="#" class="fa fa-twitter"></a></li>
-					<li><a href="#" class="fa fa-instagram"></a></li>
-					<li><a href="#" class="fa fa-envelope"></a></li>
-				</ul>
+				<h2>Слідкуйте за нами</h2>
+                <ul class="social-icon">
+                    <li><a href="#" class="fa fa-instagram"></a></li>
+                    <li><a href="#" class="fa fa-envelope"></a></li>
+                </ul>
 			</div>
 	
 			<div class="clearfix"></div>
@@ -305,9 +353,34 @@ http://www.templatemo.com/tm-487-fitness
 	</div>
 	</footer>
 
-<!-- =========================
-     SCRIPTS   
-============================== -->
+
+
+
+ 
+<script>
+        $(document).ready(function(){
+            $(".owl-carousel").owlCarousel({
+                items: 3,
+                loop: true,
+                margin: 20,
+                nav: true,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 2
+                    },
+                    1000: {
+                        items: 3
+                    }
+                }
+            });
+        });
+</script>
+    
+</script>
+
 <script src="js/jquery.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/jquery.parallax.js"></script>
@@ -320,3 +393,4 @@ http://www.templatemo.com/tm-487-fitness
 
 </body>
 </html>
+

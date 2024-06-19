@@ -155,12 +155,15 @@ a {
 
 .navbar-brand {
   padding: 0;
+  display: flex; /* Добавляем Flexbox */
+  align-items: center; /* Центрируем по вертикали */
+  justify-content: center; /* Центрируем по горизонтали */
 }
 
 .navbar-brand img {
-  width: 200px; /* Устанавливаем фиксированную ширину */
+  width: 600px; /* Устанавливаем фиксированную ширину */
   height: auto; /* Высота автоматически подстраивается под ширину */
-  display: block;
+  display: block; /* Изображение как блочный элемент */
 }
 
 .navbar-default .navbar-nav li a {
@@ -175,6 +178,9 @@ a {
   -ms-transition: all 0.4s ease-in-out;
 }
 
+.navbar-nav.navbar-right.main-navigation li a {
+  font-size: 14px; /* Установите нужный размер шрифта */
+}
 .navbar-default .navbar-nav li a:hover {
   color: #000;
 }
@@ -311,15 +317,17 @@ a {
 #trainer h3 {
   letter-spacing: 1px;
   margin-top: 0px;
-  padding-bottom: 12px;
+  padding-bottom: 9px;
 }
 
 #trainer img {
   width: 100%;
-  height: 400px; /* Устанавливаем фиксированную высоту */
+  height: 370px; /* Устанавливаем фиксированную высоту */
   object-fit: cover; /* Обрезаем изображение, чтобы заполнить контейнер */
+  /* margin: 15px; */
+  padding: 10px;
 }
-
+/* 
 #trainer .trainer-thumb {
   position: relative;
   margin-top: 72px;
@@ -369,7 +377,7 @@ a {
   -webkit-transform:translate(-50%,-50%);
       -ms-transform:translate(-50%,-50%);
           transform:translate(-50%,-50%);
-}
+} */
 
 
 
@@ -909,8 +917,17 @@ footer .copyright-text {
 
   .navbar-default .navbar-brand {
     line-height: 15px;
-  }
+    justify-content: flex-start;
+    padding-right: 120px; 
+    display: none; 
+  } 
 
+  
+  .navbar-brand-img {
+    display: none;
+  
+  }
+  
   .navbar-default .navbar-nav li a {
     font-size: 20px;
     line-height: 18px;
@@ -999,5 +1016,4 @@ footer .copyright-text {
   #overview .overview-detail {
     margin-top: 32px;
   }
-
 }
